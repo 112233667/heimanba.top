@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, I'm ㎜ - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 左侧个人信息区域 -->
+        <aside class="sidebar">
+            <div class="profile-section">
+                <div class="avatar">
+                    <img src="jrz.jpg" alt="jrz Avatar" id="jrz.jpg">
+                </div>
+                <div class="profile-info">
+                    <h1>Hello, I'm <span class="highlight">㎜</span></h1>
+                    <div class="role">
+                        <i class="fas fa-circle" style="color: #ffd700;"></i>
+                        <span>Full Stack Developer</span>
+                    </div>
+                    <p class="motto">
+                        The only way to do <span class="great">great</span> is to <span class="love">love</span> what you do.
+                    </p>
+                </div>
+                
+
+                
+                <div class="social-links">
+                    <a href="https://github.com/112233667" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://space.bilibili.com/3546676543359125?spm_id_from=333.788.upinfo.head.click" class="social-link"><i class="fas fa-blog"></i></a>
+                    <a href="mailto:2151496056@qq.com" class="social-link email-link"><i class="fas fa-envelope"></i><span class="email-tooltip">2151496056@qq.com</span></a>
+                    <a href="#" class="social-link"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+            
+            <!-- 时间线 -->
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025-8-10</div>
+                    <div class="timeline-content">管理前端</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2025-7-31</div>
+                    <div class="timeline-content">个人主页制作完成</div>
+                </div>                
+            </div>
+            
+            <!-- 技能标签 -->
+            <div class="skills">
+                <span class="skill-tag">kzr</span>
+                <span class="skill-tag">91</span>
+                <span class="skill-tag">miku</span>
+                <span class="skill-tag">78</span>
+                <span class="skill-tag">飞牛nas</span>
+                <span class="skill-tag">九次元</span>
+                <span class="skill-tag">奥迪</span>
+                <span class="skill-tag">科迪</span>
+            </div>
+        </aside>
+        
+        <!-- 主要内容区域 -->
+        <main class="main-content">
+            <!-- GitHub 贡献图 -->
+            <section class="contribution-section">
+                <h2><i class="fas fa-calendar-alt"></i> 贡献热力图</h2>
+                <div class="contribution-graph" id="contributionGraph">
+                    <!-- 贡献图将通过JavaScript生成 -->
+                </div>
+                <div class="contribution-stats">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 网站项目 -->
+            <section class="projects-section">
+                <h2><i class="fas fa-globe"></i> WebSite</h2>
+                <div class="projects-grid">
+                    <a href="https://blog.heimanba.top" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-blog"></i>
+                            </div>
+                            <div class="project-info">
+                                <h3>博客</h3>
+                                <p>记录编程日志</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://toolwa.com/" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <div class="project-info">
+                                <h3>实验室</h3>
+                                <p>第三方在线服务</p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="https://chat.heimanba.top" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="project-info">
+                                <h3>GPT</h3>
+                                <p>chatgpt next web</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://jiankong.heimanba.top" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="project-info">
+                                <h3>服务监控</h3>
+                                <p>实时监控系统状态</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://fnos.net/jrz1234" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="project-info">
+                                <h3>飞牛nas</h3>
+                                <p>自建本地飞牛nas</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://api.heimanba.top/" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <div class="project-info">
+                                <h3>One API</h3>
+                                <p>统一API接口管理</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            
+            <!-- 项目展示 -->
+            <section class="projects-section">
+                <h2><i class="fas fa-code"></i> Project</h2>
+                <div class="projects-grid">
+                    <a href="https://cursor.com/cn/home" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-info">
+                                <h3>项目工具</h3>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>土豆主页（施工中）</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 关于页面 -->
+            <section class="about-section">
+                <h2><i class="fas fa-user"></i> 关于我</h2>
+                <div class="about-content">
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="about-info">
+                            <h3>个人简介</h3>
+                            <p>全栈开发者，热爱编程和技术探索。专注于前端和后端开发，追求代码质量与用户体验的完美平衡。喜欢音乐、游戏和动漫，持续学习新技术。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+    
+    <!-- 备案号 -->
+    <footer class="footer">
+        <div style="width:600px;margin:0 auto;text-align:center;white-space: nowrap;">
+            <a href="https://beian.mps.gov.cn/#/query/webSearch?code=34019102001351" target="_blank" style="text-decoration:none;" rel="noopener">
+                <img src="https://ywtb.mps.gov.cn/authservice/images/foot-ga.png" style="width:16px;height:16px;vertical-align:middle;">
+                <span style="color:#939393;font-size:12px;vertical-align:middle;">皖公网安备34019102001351号</span>
+            </a>
+            <span style="color:#939393;font-size:12px;margin:0 10px;">|</span>
+            <a href="https://beian.miit.gov.cn/" target="_blank" style="text-decoration:none;" rel="noopener">
+                <span style="color:#939393;font-size:12px;vertical-align:middle;">皖ICP备2025094559-1号</span>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
